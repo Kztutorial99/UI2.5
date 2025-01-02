@@ -1,6 +1,47 @@
+function checkPackage(packageName, version)
+    local context = luajava.bindClass("android.app.ActivityThread"):currentApplication():getApplicationContext()
+    local packageManager = context:getPackageManager()
+    local success, packageInfo = pcall(function()
+        return packageManager:getPackageInfo(packageName, 0)
+    end)
+
+    if success and packageInfo then
+        return packageInfo.versionName == version
+    end
+    return false
+end
+
+function detectVPN()
+    local context = luajava.bindClass("android.app.ActivityThread"):currentApplication():getApplicationContext()
+    local connectivityManager = context:getSystemService("connectivity")
+    local activeNetwork = connectivityManager:getActiveNetwork()
+    if activeNetwork then
+        local networkCapabilities = connectivityManager:getNetworkCapabilities(activeNetwork)
+        if networkCapabilities and networkCapabilities:hasTransport(NetworkCapabilities.TRANSPORT_VPN) then
+            return true
+        end
+    end
+    return false
+end
+
+function SecSc()
+    if detectVPN() then
+        gg.alert("⚠ Unable to attach to process {PTRACE_ATTACH}\n\nScript is protected\n\nPossible reasons:\n1. Protection within the script.\n2. Another debugger or cracker is connected to the script.\n\n㊣ Protected\n[ASCXP]")
+        gg.setVisible(false)
+        os.exit()
+    end
+end
+
+local packageName = "com.e1940b18a111686a"
+local version = "2.0.6"
+if not checkPackage(packageName, version) then
+    showAlertDialog() -- Pastikan Anda mendefinisikan fungsi ini
+    return
+end
+
+SecSc()
+
 local _ENV=(function()
-
-
 local pairs=pairs
 
 local string_char=string.char
