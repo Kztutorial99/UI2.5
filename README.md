@@ -1,4 +1,4 @@
-# 🌟 UPDATE UI STAB 2.5  
+#  UPDATE UI STAB 2.5  
 🚀 **Bringing the latest features to enhance performance and improve your gaming experience.**  
 
 ---
