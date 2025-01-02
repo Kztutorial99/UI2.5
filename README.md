@@ -10,14 +10,14 @@ UI update with the latest features to enhance performance and improve your gamin
 
 ---
 
-## ᯓ FEATURE  
-➛ Aim Bot Smooth  
-➛ Aim Bot Medium  
+## ᯓ FEATURE
+➛ Aim Bot Smooth
+➛ Aim Bot Medium
 ➛ Aim Silent Smooth
 ➛ Aim Silent Medium
 ➛ Magic Bullet Smooth
 ➛ Magic Bullet Medium
-➛ Antena 
+➛ Antena
 ➛ Antena Loop
 ➛ Speed Up  
 ➛ No Recoil  
