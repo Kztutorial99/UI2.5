@@ -1,18 +1,24 @@
-# 🌟 UPDATE UI STAB 2.5  
-🚀 **Bringing the latest features to enhance performance and improve your gaming experience.**  
+# 🌟 UPDATE UI STAB 2.5
+
+<div style="animation: fadeIn 2s ease-in-out;">
+🚀 **Bringing the latest features to enhance performance and improve your gaming experience.**
+</div>
 
 ---
 
-## 🛡️ **PROTECTION**  
+## 🛡️ **PROTECTION**
 ✨ Stay safe with advanced protection mechanisms:  
+<div style="animation: slideIn 2s ease-in-out;">
 - 🔒 **Bypass Lobby**  
 - 🔒 **Bypass Blacklist**  
 - 🔒 **Bypass Report**  
+</div>
 
 ---
 
-## 🛠️ **FEATURES**  
+## 🛠️ **FEATURES**
 🎯 Dominate the game with powerful features:  
+<div style="animation: zoomIn 1.5s ease;">
 - 🎯 **Aim Bot SM**  
 - 🎯 **Aim Bot MD**  
 - 🎯 **Aim Silent SM**  
@@ -24,34 +30,42 @@
 - ⚡ **Speed Up**  
 - 🎯 **No Recoil**  
 - 🛫 **Fly Hack**  
+</div>
 
 ---
 
-### ⚠️ **Note**  
+### ⚠️ **Note**
 Always use these features responsibly and ensure compliance with game policies. 🚨  
 
 ---
 
-### 🎥 Animation and Smooth Effects  
-Untuk memberikan efek visual, Anda dapat menggunakan **GIF** atau **animasi CSS** (jika diintegrasikan dengan situs web). Contoh:
-
-#### Demo UI (GIF atau Video Placeholder):  
-![Demo](https://via.placeholder.com/600x400?text=Feature+Demo)
-
-#### Tambahkan Smooth Animation:  
-Jika Anda membuat website, tambahkan animasi CSS seperti ini:
-```css
-.feature {
-  animation: fadeIn 2s ease-in-out;
-}
-
+<style>
 @keyframes fadeIn {
-  0% {
+  from {
     opacity: 0;
-    transform: translateY(20px);
   }
-  100% {
+  to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
+@keyframes slideIn {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+</style>
