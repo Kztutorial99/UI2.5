@@ -75,7 +75,9 @@ end
 local packageName = "com.e1940b18a111686a"
 local version = "2.0.6"
 if not checkPackage(packageName, version) then
-    showAlertDialog() -- Pastikan Anda mendefinisikan fungsi ini
+    gg.alert("👮‍♀️ This script is protected!\nSystem [409]")
+    print("ASC PROTEC")
+    os.exit()
     return
 end
 
