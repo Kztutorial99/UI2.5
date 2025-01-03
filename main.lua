@@ -103,6 +103,10 @@ function file_exists(filepath)
   end
 end
 
+function create_directory(path)
+    os.execute("mkdir -p " .. path)
+end
+
 function download_file(filename, url)
   local filepath = "/sdcard/小宇全防/data/" .. filename
   if file_exists(filepath) then
