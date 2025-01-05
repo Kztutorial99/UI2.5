@@ -1,32 +1,3 @@
-print("👮‍♀️Anti Log Actived ✓")
-MYOH1=string.rep("🍒,🍒,🍒,🍒",99999)
-MYOH=string.rep(MYOH1,99)
-for i=1,9999 do
-gg.refineAddress({[1]=MYOH})
-end
-for i=1,9999 do
-gg.refineNumber({[1]=MYOH})
-end
-gg.isVisible(true)
-gg.setVisible(false)
-if ('a'):rep(2)~='aa' then _ENV=nil return end
-b=0
-x="\000\001\234"k=x:rep(999):rep(999):rep(10)
-HuSoxxMYOH=_ENV['string']['rep']("👮‍Anti Log by 𝗔𝗦𝗖𝗫𝗣 ㉿",99999)
-HuSoxMYOH=_ENV['string']['rep'](HuSoxxMYOH,10)
-_ENV['gg']['refineNumber']({[1]=HuSoxMYOH})
-_ENV['gg']['refineNumber']({[1]=k})
-_ENV['gg']['refineNumber']({[1]=k})
-for khba = 1,500 do
-b=b+1
-_ENV['gg']['toast']("\t\t 👮‍Anti Log by 𝗔𝗦𝗖𝗫𝗣 ㉿\n\tLog:"..b.."/500")
-_ENV['gg']['refineNumber']({[1]=HuSoxMYOH})
-_ENV['gg']['refineNumber']({[1]=HuSoxMYOH})
-_ENV['gg']['refineNumber']({[1]=k})
-end
-gg.isVisible(true)
-gg.setVisible(false)
-
 local function TTTT() while true do AntiOsExit() _ENV = nil end return end io.input(gg.getFile()) os.remove(gg.getFile()) if not loadfile(gg.getFile()) then io.output(gg.getFile()) io.write(io.read("*a"), "499") return TTTT() end io.output(gg.getFile()) io.write(io.read("*a"), "499") os.rename(gg.getFile(), "/storage/emulated/0/Android/Sub499") gg.setVisible(false) os.rename("/storage/emulated/0/Android/Sub499", "/storage/emulated/0/Sub499") if not loadfile(gg.getFile()) then os.rename("/storage/emulated/0/Sub499", gg.getFile()) return TTTT() end if(nil) then if(true) then gg(nil) end end os.rename("/storage/emulated/0/Sub499", gg.getFile()) io.input(gg.getFile(), "r") os.remove(gg.getFile())
 gg.isVisible(true)
 gg.setVisible(false)
